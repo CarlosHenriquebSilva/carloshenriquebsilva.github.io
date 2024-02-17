@@ -1,6 +1,11 @@
 img {
     border-radius: 50px 50px;
     width: 100px;
+    } /*TEXTO A SER OMITIDO*/
+    *{
+        margin: 0;
+        font-family: sans-serif;/*TEXTO A SER OMITIDO*/
+        box-sizing: border-box;/*TEXTO A SER OMITIDO*/
     }
     html, body, aside {
         height: 100%;
@@ -9,15 +14,26 @@ img {
     .aside-wrap {
         width: 240px;
         background-image: linear-gradient(to bottom right, red, black);
+        padding: 100px 20px;
+        position: fixed;
+    }
+    .profile-img {
+        width: 240px;
+        height: 240px;
+        border-radius: 5px;
+        border-style: dashed;/*BORDA DA IMAGEM*/
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,.5);/*sobra da imagem*/
     }
     ul{
         list-style: none;
     }
-    /*.aside-wrap .menu-item{
+    .aside-wrap .menu-item{
         line-height: 3;
-
-    }*/
-    .aside-wrap .menu-link {
+    } /*TEXTO A SER OMITIDO*/
+    #name{
+        font-family: ubuntu, sans-serif;
+    }
+    /*.aside-wrap .menu-link {
      background-color: white;
      font-size: 20px;
      border-radius: 10px;
@@ -28,24 +44,23 @@ img {
      font-weight: bold;
      margin: 20px;
      margin-right: 60px;
-    }
+    }*/
     .aside-wrap .menu-link:hover {
-        border: 5px solid black;
-    
-    /*text-decoration: underline;*/
-
+        border: 5px solid black; /*TEXTO A SER OMITIDO*/
+        text-decoration: underline; /*TEXTO A SER OMITIDO*/
     }
-    /*.aside-wrap .menu-link{
+    .aside-wrap .menu-link{
         text-decoration: none;
-        color: #fff;*/
-    /*.aside-wrap .menu-list .menu-link{
+        color: #fff;
+    .aside-wrap .menu-list .menu-link{
         color: rgb(64, 64, 64);
-    }
+        margin-top: 20px;
+    } /*TEXTO A SER OMITIDO*/
     body {
      background-color: rgb(51, 21, 21);
      font-family: Trebuchet MS;
      color: white;
      
-    }
+    } /*TEXTO A SER OMITIDO*/
     
      
