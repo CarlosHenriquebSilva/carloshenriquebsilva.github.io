@@ -8,10 +8,11 @@ img {
         box-sizing: border-box;
     }
     :root{
-        --primary: #c94666;
-        --secundary: #78293d;
+        --primary: #5E65AB;
+        --secundary: #675C60;
         --hover: #5e2130;
-        --dark: #17080c;
+        --dark: #29282D;
+        --light: #F3EEE8;
     }
     html, body, aside, main, section {
         height: 100%;
@@ -59,7 +60,7 @@ img {
         font-weight: bold;
         font-size: 26px;
         text-decoration: none;
-        background-color: var(--secundary);
+        background-color: var(--primary);
 
     }
     /* ASIDE WRAP */
